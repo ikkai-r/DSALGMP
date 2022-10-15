@@ -7,7 +7,7 @@ public class MPDriver {
 
         MP mp = new MP();
 
-        Scanner input = new Scanner("tgtgtgtgcaccg");
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter text: ");
         String text = input.nextLine();
 
