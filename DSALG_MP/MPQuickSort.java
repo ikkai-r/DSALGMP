@@ -57,28 +57,4 @@ public class MPQuickSort {
         arrString[setStringIndex] = temp;
     }
 
-    /**
-     * Prints the array.
-     * @param arrStrings        string array to be printed.
-     * @param arrStringsIndex   index of arrStrings.
-     */
-    public void printArray(String[] arrStrings, int[] arrStringsIndex){
-
-        int arrIndex = 0;
-        int space = 0, gap = arrStrings.length;
-
-        System.out.println();
-
-        for (arrIndex = 0; arrIndex < arrStrings.length; arrIndex++) {
-
-            while (gap != 0){
-                gap /= 10;
-                space++;
-            }
-
-            System.out.printf("%" + space + "d: ", arrStringsIndex[arrIndex]);
-            System.out.println(arrStrings[arrIndex]);
-        }
-
-    }
 }
