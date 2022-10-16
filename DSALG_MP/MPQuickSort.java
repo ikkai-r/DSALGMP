@@ -1,7 +1,5 @@
 package DSALG_MP;
 
-import java.util.ArrayList;
-
 public class MPQuickSort {
 
     /**

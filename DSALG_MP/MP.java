@@ -1,6 +1,6 @@
 package DSALG_MP;
 
-import java.util.*;
+import java.util.ArrayList;
 
 public class MP {
     private String mainString;
@@ -166,7 +166,7 @@ public class MP {
 
 
     /**
-     * Prints the array.
+     * Utility function that prints the array.
      * @param arrStrings        string array to be printed.
      * @param arrStringsIndex   index of arrStrings.
      */
