@@ -1,7 +1,5 @@
 package DSALG_MP;
 
-import java.util.*;
-
 public class MPInsertionSort {
 
     /**
@@ -13,7 +11,8 @@ public class MPInsertionSort {
         int outerIndex = 0, innerIndex = 0;
         String key = "";
 
-        for (outerIndex = 0; outerIndex < arrString.length; outerIndex++) {
+        //starts at 1
+        for (outerIndex = 1; outerIndex < arrString.length; outerIndex++) {
             key = arrString[outerIndex];
             innerIndex = outerIndex - 1;
 
